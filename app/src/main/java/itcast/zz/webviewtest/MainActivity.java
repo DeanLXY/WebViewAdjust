@@ -82,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
 //        mWebView.loadUrl("javascript: var imgs=document.getElementsByTagName('img');window.java.showToast(imgs.length+'') ; for(var i=0;i<imgs.length;i++) {imgs[i].width=320;}");
         // 320-----屏幕宽度  像素不一样  效果差
         mWebView.loadUrl("javascript: var imgs=document.getElementsByTagName('img');window.java.showToast(imgs.length+'张图片') ; for(var i=0;i<imgs.length;i++) {imgs[i].width="+sceenWidth+";}");
-        // 320----100% error
+    // 320----100% error
 //        mWebView.loadUrl("javascript: var imgs=document.getElementsByTagName('img');window.java.showToast(imgs.length+'') ; for(var i=0;i<imgs.length;i++) {imgs[i].width=100%;}");
 //        mWebView.loadUrl("javascript: window.java.showToast('1');var imgs=document.getElementsByTagName('img');  for(var i=0;i<imgs.length;i++) imgs[i].sceenWidth=100%;for(var i=0;i<imgs.length;i++) window.java.showToast(imgs[i].src);");
 //        mWebView.reload();
-        isRealod = false;
-    }
+    isRealod = false;
+}
 
 
     class JsInterface {
