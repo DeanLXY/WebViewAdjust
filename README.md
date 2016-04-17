@@ -10,5 +10,10 @@ google老大原话
 	Even if your targetSdkVersion is set to "18" or lower, these APIs have no effect.
 意思就是4.4以上不能使用单向排列了 改成了TEXT_AUTOSIZING
 
-适配前![](https://github.com/wangxujie/WebViewTest/blob/master/screenshots/1.gif)
-适配后![](https://github.com/wangxujie/WebViewTest/blob/master/screenshots/2.gif)
+
+![适配前](https://github.com/wangxujie/WebViewTest/blob/master/screenshots/1.gif)
+
+
+按照屏幕适配
+
+![适配后](https://github.com/wangxujie/WebViewTest/blob/master/screenshots/2.gif)
